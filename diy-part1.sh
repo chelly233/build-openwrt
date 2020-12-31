@@ -32,7 +32,6 @@ lscpu htop iperf3 curl lm-sensors install-program autocore
 "
 #Remove packages
 rm -rf package/feeds/packages/coremark
-rm -rf package/ctcgfw/luci-app-turboacc
 rm -rf package/ctcgfw/luci-app-adguardhome
 rm -rf package/ntlf9t/AdGuardHome
 
