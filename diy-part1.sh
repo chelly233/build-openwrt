@@ -18,7 +18,7 @@
 #Add install program
 git clone -b install --single-branch https://github.com/chelly233/build-openwrt-for-n1 package/install-program
 #Add package autocore
-sed -i 's/TARGET_bcm27xx/TARGET_bcm27xx||TARGET_armvirt/g' package/lean/autocore/Makefile
+sed -i 's/TARGET_mvebu/TARGET_mvebu||TARGET_armvirt/g' package/lean/autocore/Makefile
 #Remove unwanted firmware
 sed -i '/FEATURES+=/ { s/cpiogz //; s/ext4 //; s/ramdisk //; s/squashfs //; }' \
     target/linux/armvirt/Makefile
