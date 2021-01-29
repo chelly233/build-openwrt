@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Phicomm N1 OpenWrt kernel 5.4
+name: Phicomm N1 OpenWrt k5.4
 
 on:
   repository_dispatch:
