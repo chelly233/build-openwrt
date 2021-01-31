@@ -67,5 +67,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-packages-hanwckf-K2P_nano-5.0
+        name: Padavan-packages-hanwckf-XIAOMI_MINI
         path: /opt/images
